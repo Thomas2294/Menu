@@ -1,0 +1,63 @@
+body {
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	font-size: 40px;
+	position: relative;
+	background: url("../img/fond.jpg"); 
+    background-color: #5187aa; 
+    height: 2000px; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: scroll;
+    
+}
+
+h1 {
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 20px;
+    color:  #000000;
+	font-weight: lighter;
+	font-size: 150px ;
+	margin-top: 75px;   
+	margin-bottom: 0%; 
+}
+
+h1:hover {
+	color: #ff0000;
+}
+
+::selection {
+	background: #e8ff1c;
+	color: red; 
+}
+
+#copyright {
+	color: #ffffff;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#entree {
+	font-size: 50px;
+	margin-top: 325px;
+	margin-bottom: 10px;
+}
+
+#plat {
+	font-size: 50px;
+	margin-top: Opx;
+	margin-bottom: 10px;
+}
+
+#dessert {
+	font-size: 50px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.contenu {
+	font-size: 40px;
+}
