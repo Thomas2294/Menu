@@ -1,26 +1,33 @@
 body {
 	text-align: center;
 	font-family: 'Courgette', cursive;
-	font-size: 40px;
+	font-size: 4rem;
 	position: relative;
 	background: url("../img/fond.jpg"); 
     background-color: #5187aa; 
-    height: 2000px; 
+    height: 200rem; 
     background-position: center center; 
     background-repeat: no-repeat; 
     background-size: cover; 
-    background-attachment: scroll;
+	background-attachment: scroll;
+	padding: 0rem;
+	margin: 0rem;
+	box-sizing: border-box;
     
+}
+
+html {
+	font-size: 62.5%;
 }
 
 h1 {
 	display: inline-block;
 	text-align: center;
-	letter-spacing: 20px;
+	letter-spacing: 2rem;
     color:  #000000;
 	font-weight: lighter;
-	font-size: 150px ;
-	margin-top: 75px;   
+	font-size: 15rem ;
+	margin-top: 7,5rem;   
 	margin-bottom: 0%; 
 }
 
@@ -36,28 +43,28 @@ h1:hover {
 #copyright {
 	color: #ffffff;
 	position: absolute;
-	bottom: 0px;
-	right: 0px;
+	bottom: 0rem;
+	right: 0rem;
 }
 
 #entree {
-	font-size: 50px;
-	margin-top: 325px;
-	margin-bottom: 10px;
+	font-size: 5rem;
+	margin-top: 32,5rem;
+	margin-bottom: 1rem;
 }
 
 #plat {
-	font-size: 50px;
-	margin-top: Opx;
-	margin-bottom: 10px;
+	font-size: 5rem;
+	margin-top: 0rem;
+	margin-bottom: 1rem;
 }
 
 #dessert {
-	font-size: 50px;
-	margin-top: 0px;
-	margin-bottom: 10px;
+	font-size: 5rem;
+	margin-top: 0rem;
+	margin-bottom: 1rem;
 }
 
 .contenu {
-	font-size: 40px;
+	font-size: 4rem;
 }
